@@ -1,0 +1,15 @@
+$color_default: #3399ff;
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Components
+@import "estilo/components/navbar";
+@import "estilo/components/panel";
+@import "estilo/components/bg";
+@import "estilo/components/form";
+
+// Helpers
+
+// pages
+@import "estilo/pages/home";
