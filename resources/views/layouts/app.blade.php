@@ -11,16 +11,19 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<!-- <s
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-default navbar-static-top">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
 
                     <!-- Collapsed Hamburger -->
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse" aria-expanded="false">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle Navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -76,5 +79,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </body>
 </html>

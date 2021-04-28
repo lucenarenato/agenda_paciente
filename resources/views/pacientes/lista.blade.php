@@ -3,8 +3,9 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css">
 @endsection
 @section('content')
+<div class="container">
 <div class="row">
-        <div class="col-md-4 col-md-offset-4">
+    <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-primary">
                 <div class="panel-heading">Agenda - Cadastros</div>
 
@@ -23,7 +24,7 @@
         </div>
     </div>
 
-<div class="container">
+<br>
     <div class="row">
         <div class="col-md-12">
             <div class="panel panel-default">
