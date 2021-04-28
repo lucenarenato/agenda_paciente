@@ -32,7 +32,8 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                        {{-- {{ config('app.name', 'Sistema de Agendamento') }} --}}
+                        Sistema de Agendamento
                     </a>
                 </div>
 
