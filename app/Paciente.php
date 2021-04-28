@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Paciente extends Model
 {
+    protected $table = 'pacientes';
+
     protected $fillable = [
         'nome',
         'sexo',
@@ -13,6 +15,8 @@ class Paciente extends Model
         'telefone',
         'endereco',
     ];
+
+    protected $dates = ['created_at', 'updated_at'];
 
     public function agendamentos()
     {

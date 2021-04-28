@@ -87,7 +87,7 @@
 @endsection
 
 @section('external_js')
-@if(count('medicos') > 0)
+@if(count($medicos) > 0)
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>

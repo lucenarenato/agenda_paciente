@@ -1,0 +1,146 @@
+[2021-04-28 21:27:52] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-28 21:28:52] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-28 21:29:20] local.INFO: null  
+[2021-04-28 21:29:20] local.INFO: null  
+[2021-04-28 21:29:52] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-28 21:31:47] local.INFO: null  
+[2021-04-28 21:31:47] local.INFO: null  
+[2021-04-28 21:38:04] local.INFO: null  
+[2021-04-28 21:46:18] local.INFO: [{"id":1,"nome":"Fulano","sexo":"M","telefone":"62 99999-9999","endereco":"endereco fulano","created_at":"Apr 28, 2021","updated_at":"Apr 28, 2021"}]  
+[2021-04-28 21:49:59] local.INFO: [{"id":1,"nome":"Fulano","sexo":"M","telefone":"62 99999-9999","endereco":"endereco fulano","created_at":"Apr 28, 2021","updated_at":"Apr 28, 2021"}]  
+[2021-04-28 21:52:06] local.INFO: [{"id":1,"nome":"Fulano","sexo":"M","telefone":"62 99999-9999","endereco":"endereco fulano"}]  
+[2021-04-28 21:52:07] local.INFO: [{"id":1,"nome":"Fulano","sexo":"M","telefone":"62 99999-9999","endereco":"endereco fulano"}]  
+[2021-04-28 21:52:09] local.INFO: [{"id":1,"nome":"Fulano","sexo":"M","telefone":"62 99999-9999","endereco":"endereco fulano"}]  
+[2021-04-28 21:52:10] local.INFO: [{"id":1,"nome":"Fulano","sexo":"M","telefone":"62 99999-9999","endereco":"endereco fulano"}]  
+[2021-04-28 21:52:11] local.INFO: [{"id":1,"nome":"Fulano","sexo":"M","telefone":"62 99999-9999","endereco":"endereco fulano"}]  
+[2021-04-28 21:52:11] local.INFO: [{"id":1,"nome":"Fulano","sexo":"M","telefone":"62 99999-9999","endereco":"endereco fulano"}]  
+[2021-04-28 21:52:12] local.INFO: [{"id":1,"nome":"Fulano","sexo":"M","telefone":"62 99999-9999","endereco":"endereco fulano"}]  
+[2021-04-28 21:52:13] local.INFO: [{"id":1,"nome":"Fulano","sexo":"M","telefone":"62 99999-9999","endereco":"endereco fulano"}]  
+[2021-04-28 21:57:41] local.INFO: [{"id":1,"nome":"Fulano","sexo":"M","telefone":"62 99999-9999","endereco":"endereco fulano"}]  
+[2021-04-28 21:57:41] local.INFO: null  
+[2021-04-28 22:04:35] local.INFO: [{"id":1,"nome":"Dr.Fulano","crm":"01010101-0\/BR","especialidade":"Pediatria","telefone":"62 99999-9999"}]  
+[2021-04-28 22:05:52] local.INFO: [{"id":1,"nome":"Fulano","sexo":"M","telefone":"62 99999-9999","endereco":"endereco fulano"}]  
+[2021-04-28 22:05:52] local.INFO: [{"id":1,"nome":"Dr.Fulano","crm":"01010101-0\/BR","especialidade":"Pediatria","telefone":"62 99999-9999"}]  
+[2021-04-28 22:05:52] local.ERROR: Undefined index: nome {"exception":"[object] (ErrorException(code: 0): Undefined index: nome at /home/renato/Downloads/sist clinica/agenda_paciente/database/seeds/agendamentoSeeder.php:57)
+[stacktrace]
+#0 /home/renato/Downloads/sist clinica/agenda_paciente/database/seeds/agendamentoSeeder.php(57): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', '/home/renato/Do...', 57, Array)
+#1 [internal function]: agendamentoSeeder->run()
+#2 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#3 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(122): Illuminate\\Container\\Container->call(Array)
+#7 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(42): Illuminate\\Database\\Seeder->__invoke()
+#8 /home/renato/Downloads/sist clinica/agenda_paciente/database/seeds/DatabaseSeeder.php(20): Illuminate\\Database\\Seeder->call('agendamentoSeed...')
+#9 [internal function]: DatabaseSeeder->run()
+#10 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#11 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#12 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#13 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#14 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(122): Illuminate\\Container\\Container->call(Array)
+#15 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#16 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php(129): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#17 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#18 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#19 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#20 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#22 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#23 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#24 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#25 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#26 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 /home/renato/Downloads/sist clinica/agenda_paciente/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 {main}
+"} 
+[2021-04-28 22:06:24] local.INFO: [{"id":1,"nome":"Dr.Fulano","crm":"01010101-0\/BR","especialidade":"Pediatria","telefone":"62 99999-9999"}]  
+[2021-04-28 22:06:24] local.ERROR: Undefined index: nome {"exception":"[object] (ErrorException(code: 0): Undefined index: nome at /home/renato/Downloads/sist clinica/agenda_paciente/database/seeds/agendamentoSeeder.php:57)
+[stacktrace]
+#0 /home/renato/Downloads/sist clinica/agenda_paciente/database/seeds/agendamentoSeeder.php(57): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', '/home/renato/Do...', 57, Array)
+#1 [internal function]: agendamentoSeeder->run()
+#2 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#3 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(122): Illuminate\\Container\\Container->call(Array)
+#7 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(42): Illuminate\\Database\\Seeder->__invoke()
+#8 /home/renato/Downloads/sist clinica/agenda_paciente/database/seeds/DatabaseSeeder.php(20): Illuminate\\Database\\Seeder->call('agendamentoSeed...')
+#9 [internal function]: DatabaseSeeder->run()
+#10 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#11 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#12 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#13 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#14 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Database/Seeder.php(122): Illuminate\\Container\\Container->call(Array)
+#15 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#16 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php(129): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#17 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#18 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#19 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#20 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#22 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#23 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#24 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#25 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#26 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 /home/renato/Downloads/sist clinica/agenda_paciente/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 /home/renato/Downloads/sist clinica/agenda_paciente/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 {main}
+"} 
+[2021-04-28 22:06:50] local.INFO: [{"id":1,"nome":"Dr.Fulano","crm":"01010101-0\/BR","especialidade":"Pediatria","telefone":"62 99999-9999"}]  
+[2021-04-28 22:06:50] local.INFO: [{"id":1,"id_paciente":1,"id_medico":1,"descricao":"teste agendamento","datahora":"2021-04-28 17:18:59","legenda":"teste agendamento legenda"}]  
+[2021-04-28 22:07:25] local.INFO: [{"id":1,"nome":"Fulano","sexo":"M","telefone":"62 99999-9999","endereco":"endereco fulano"}]  
+[2021-04-28 22:07:25] local.INFO: [{"id":1,"nome":"Dr.Fulano","crm":"01010101-0\/BR","especialidade":"Pediatria","telefone":"62 99999-9999"}]  
+[2021-04-28 22:07:25] local.INFO: [{"id":1,"id_paciente":1,"id_medico":1,"descricao":"teste agendamento","datahora":"2021-04-28 17:18:59","legenda":"teste agendamento legenda"}]  

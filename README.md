@@ -12,6 +12,8 @@ Também devera ter um campo observação para que o medico informe o procediment
 
 - Laravel is a web application framework with expressive, elegant syntax.
 
+`CREATE DATABASE agendamentos CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;`
+
  ```sh
 $ composer install
  - configure o banco de dados no .env
@@ -19,8 +21,7 @@ $ composer install
 $ php artisan migrate
 $ php artisan key:generate
 $ php artisan config:cache
-$ php artisan make:auth
-$ php artisan migrate
+$ php artisan db:seed
 $ php artisan serve
 ```
 

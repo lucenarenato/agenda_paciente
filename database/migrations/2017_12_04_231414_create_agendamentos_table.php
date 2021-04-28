@@ -14,9 +14,9 @@ class CreateAgendamentosTable extends Migration
     public function up()
     {
         Schema::create('agendamentos', function (Blueprint $table) {
-            $table->increments('id');
-            $table->integer('id_paciente')->unsigned()->nullable();
-            $table->integer('id_medico')->unsigned()->nullable();
+            $table->bigIncrements('id');
+            $table->bigInteger('id_paciente')->unsigned()->nullable();
+            $table->bigInteger('id_medico')->unsigned()->nullable();
             $table->string('descricao');
             $table->datetime('datahora');
             $table->timestamps();
